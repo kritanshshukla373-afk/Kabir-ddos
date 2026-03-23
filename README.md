@@ -41,12 +41,12 @@ pip install -r requirements.txt
 ## ▶️ Usage
 
 ```bash
-python3 main.py -s <target> -p <port> -t <threads>
+python3 Kabir-X-SHAURYA.py -s <target> -p <port> -t <threads>
 ```
 
 ### Example:
 ```bash
-python3 main.py -s example.com -p 80 -t 100
+python3 Kabir-X-SHAURYA.py -s example.com -p 80 -t 100
 ```
 
 ---
