@@ -33,7 +33,6 @@ It helps developers and cybersecurity learners understand:
 ```bash
 git clone https://github.com/kritanshshukla373-afk/Kabir-ddos
 cd Kabir-ddos
-pip install -r requirements.txt
 ```
 
 ---
@@ -41,12 +40,12 @@ pip install -r requirements.txt
 ## ▶️ Usage
 
 ```bash
-python3 Kabir-X-SHAURYA.py -s <target> -p <port> -t <threads>
+python3 kabirXshaurya.py -s <target> -p <port> -t <threads>
 ```
 
 ### Example:
 ```bash
-python3 Kabir-X-SHAURYA.py -s example.com -p 80 -t 100
+python3 kabirXshaurya.py -s example.com -p 80 -t 100
 ```
 
 ---
